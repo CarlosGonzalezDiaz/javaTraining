@@ -121,6 +121,30 @@ public class PersonaDAO {
     }
 
     private static final String DELETE = "DELETE FROM test.persona WHERE id_persona = ?;";
+    public int delete(Persona persona){
+        Connection connection = null;
+        PreparedStatement preparedStatement = null;
+        int eliminar = 0;
+
+        try {
+            connection=Conexion.getConnection();
+            preparedStatement = connection.prepareStatement(DELETE);
+            preparedStatement.setInt(1, persona.getIdPersona());
+            eliminar= preparedStatement.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        finally {
+            try {
+                Conexion.close(preparedStatement);
+                Conexion.close(connection);
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+
+        return eliminar;
+    }
 
 
 

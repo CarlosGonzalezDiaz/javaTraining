@@ -36,6 +36,8 @@ public class Persona {
         return idPersona;
     }
 
+    public void setIdPersona(int idPersona) { this.idPersona = idPersona;}
+
     public String getNombre(){
         return nombre;
     }
