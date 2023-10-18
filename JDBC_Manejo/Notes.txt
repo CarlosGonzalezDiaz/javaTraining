@@ -1,8 +1,0 @@
-Clase Entidad (Entity)
-	es aquella que tiene una representación dentro de la base de datos (a traves de ella se sabe que registros hay
-	y que informacion se puede obtener)
-
-Clase DAO (Data Access Object)
-	contiene las operaciones para la clase Entity, al ser las operaciones ahi se debe representar el CRUD
-	(Create, Read, Update, Delete), debe ser relacionada con su clase Entity (pueden ser varias)
-	
