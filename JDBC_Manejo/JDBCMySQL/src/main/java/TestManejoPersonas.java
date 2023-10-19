@@ -40,10 +40,11 @@ public class TestManejoPersonas {
 
          */
 
-        Persona personaDelete = new Persona();
+        /*Persona personaDelete = new Persona();
         System.out.println("cual es el ID del registro que quieres eliminar? = ");
         personaDelete.setIdPersona(scanner.nextInt());
         personaDAO.delete(personaDelete);
+        */
 
 
         List<Persona> personas = personaDAO.seleccionar();
