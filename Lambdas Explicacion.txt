@@ -1,0 +1,10 @@
+Las expresiones Lmabda fueron introducidas en Java 8, son conocidas 
+tambien como funciones anonimas, funciones de cierre o clousures.
+se utiliza para poder implementar un metodo sin necesidad 
+de una clase,
+
+es como implementar un metodo dentro de el mismo, implementan metodos
+de interfaz funcional
+
+Sintaxis
+(parametros)->{cuerpo lambda}
