@@ -3,6 +3,17 @@ package Ejemplos.Models;
 public class Usuarios {
     private String nombre;
     private String apellido;
+    private Integer id;
+
+    public static int ultimoId;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public String getNombre() {
         return nombre;
@@ -23,5 +34,11 @@ public class Usuarios {
     public Usuarios(String nombre, String apellido) {
         this.nombre = nombre;
         this.apellido = apellido;
+        this.id = ++ultimoId;
+    }
+
+    @Override
+    public String toString() {
+        return nombre + " " + apellido;
     }
 }
