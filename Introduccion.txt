@@ -1,0 +1,2 @@
+La clase Optional se utiliza para representar que un valor este presente o ausente y evita las excepciones de nullpointer exception en tiempo de ejecucion.
+encapsula el opjeto dentro de la clase.
