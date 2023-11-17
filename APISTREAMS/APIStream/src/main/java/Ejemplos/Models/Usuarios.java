@@ -41,7 +41,9 @@ public class Usuarios {
     }
 
     public void addFacturas(Factura facturas) {
+
         this.facturas.add(facturas);
+        facturas.setUsuarios(this);
     }
 
     public Usuarios(String nombre, String apellido) {
