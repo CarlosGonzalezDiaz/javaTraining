@@ -1,6 +1,8 @@
 package Ejemplo.models.repositorio;
 
 import Ejemplo.models.Computador;
+import Ejemplo.models.Fabricante;
+import Ejemplo.models.Procesador;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +14,10 @@ public class ComputadorRepositorio implements Repositorio<Computador>{
 
     public ComputadorRepositorio() {
         dataSource=new ArrayList<>();
-        dataSource.add(new Computador("Asus ROG","Strix G512"));
+        Procesador procesador = new Procesador("I9-9800H", new Fabricante("Intel"));
+        Computador asus = (new Computador("Asus ROG","Strix G512"));
+        asus.setProcesador(procesador);
+        dataSource.add(asus);
         dataSource.add(new Computador("MackbookPro","MVVK2CI"));
     }
 
