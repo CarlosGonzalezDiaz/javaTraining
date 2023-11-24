@@ -13,7 +13,7 @@ public class EjemploLocalTime {
         System.out.println("Hora = " + localTime.getMinute());
         System.out.println("Hora = " + localTime.getSecond());
 
-        LocalTime hora = LocalTime.of(6,30);
+        LocalTime hora = LocalTime.of(6,30,59);
         System.out.println(hora);
         hora = LocalTime.parse("06:30:00");
         System.out.println("hora = " + hora);
@@ -27,6 +27,11 @@ public class EjemploLocalTime {
         
         horaFormat = hora.format(dateTimeFormatter);
         System.out.println("horaFormat = " + horaFormat);
+        
+        LocalTime max = LocalTime.MAX;
+        System.out.println(max);
+        LocalTime min = LocalTime.MIN;
+        System.out.println("min = " + min);
 
     }
 }
