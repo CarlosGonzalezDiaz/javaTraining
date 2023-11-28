@@ -1,0 +1,4 @@
+representa configuraciones por meta datos, una nueva forma parecida a interfaces desde la version 5
+
+Serializacion: Es el proceso de convertir ya sea JSon, Bytes, XML
+DeSerializacion : proceso Inverso para convertirlo en Json
