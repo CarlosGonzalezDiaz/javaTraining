@@ -1,0 +1,40 @@
+protocolo Http
+intercambian informacion
+cliente = navegador web
+servidor
+
+cuando se preciona un boton manda una solicitud al servidor una HTTP request
+cuando el servidor responde de acuerdo a la solicitud manda un HTTP response
+
+Metodos de petición HTTP
+normalmente son get y post
+la informacion va oculta en el cuerpo del request
+si trabajamos en servicios rest se oculta en un json
+
+Cabeceras HTTP de petición en el request o metadata
+enviamos informacion del cliente ya sea el navegador, ip, nombre de host, el tipo de formato como json, informacion de la ruta, tipo de contenido, que va amostrar, status
+
+codigo de estado de http
+
+desde javaEE9 cambia el nombre a JakartaEE9 ahora manejado por la comunidad para hacer aplicaciones y servivios web
+
+aplicaciones tipicas de ncapas es la capa web mvc,capa de servicios con java beans que son objetos trabsaccionales o de forma remota o servicios rest aplicaciones que estamos consumiendo
+capa de datos repositorios JPA JDBC
+
+Conteneror Web
+servlet es el controlador
+vista
+Model
+
+Especificaciones
+
+Jakarta Servlet 5-0
+Server Page
+JSF
+Context and dependency Injection
+Managed Beans se registran en CDI
+Jakarta Persistence
+Transactions
+Entrerprise Java BeansJakarta RestFul Erb Services
+MVC
+RESTFul Web ServicesMessaging
