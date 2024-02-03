@@ -1,0 +1,7 @@
+127.0.0.1 - admin [15/Jan/2024:15:57:11 -0600] "PUT /manager/text/deploy?path=%2FWebApp2&update=true HTTP/1.1" 200 65
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:15:57:33 -0600] "GET /WebApp2 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:15:57:33 -0600] "GET /WebApp2/ HTTP/1.1" 200 174
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:15:57:33 -0600] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:16:00:47 -0600] "GET /WebApp2/hola-mundo HTTP/1.1" 200 146
+127.0.0.1 - admin [15/Jan/2024:16:02:06 -0600] "PUT /manager/text/deploy?path=%2FWebApp2&update=true HTTP/1.1" 200 65
+0:0:0:0:0:0:0:1 - - [15/Jan/2024:16:02:09 -0600] "GET /WebApp2/hola-mundo HTTP/1.1" 200 154

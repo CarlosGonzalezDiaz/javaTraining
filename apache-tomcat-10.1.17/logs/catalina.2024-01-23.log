@@ -1,0 +1,85 @@
+23-Jan-2024 15:48:33.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.17
+23-Jan-2024 15:48:33.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2023 23:31:38 UTC
+23-Jan-2024 15:48:33.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.17.0
+23-Jan-2024 15:48:33.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+23-Jan-2024 15:48:33.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Jan-2024 15:48:33.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Jan-2024 15:48:33.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\carlo\.jdks\corretto-18.0.2
+23-Jan-2024 15:48:33.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.2+9-FR
+23-Jan-2024 15:48:33.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+23-Jan-2024 15:48:33.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\git\javaTraining\apache-tomcat-10.1.17
+23-Jan-2024 15:48:33.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\git\javaTraining\apache-tomcat-10.1.17
+23-Jan-2024 15:48:33.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\git\javaTraining\apache-tomcat-10.1.17\conf\logging.properties
+23-Jan-2024 15:48:33.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Jan-2024 15:48:33.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Jan-2024 15:48:33.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Jan-2024 15:48:33.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Jan-2024 15:48:33.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+23-Jan-2024 15:48:33.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+23-Jan-2024 15:48:33.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Jan-2024 15:48:33.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Jan-2024 15:48:33.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\git\javaTraining\apache-tomcat-10.1.17
+23-Jan-2024 15:48:33.746 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\git\javaTraining\apache-tomcat-10.1.17
+23-Jan-2024 15:48:33.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\git\javaTraining\apache-tomcat-10.1.17\temp
+23-Jan-2024 15:48:33.770 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.6] using APR version [1.7.4].
+23-Jan-2024 15:48:33.775 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+23-Jan-2024 15:48:33.949 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Jan-2024 15:48:33.971 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [411] milliseconds
+23-Jan-2024 15:48:34.018 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Jan-2024 15:48:34.018 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.17]
+23-Jan-2024 15:48:34.045 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war]
+23-Jan-2024 15:48:34.646 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Jan-2024 15:48:34.723 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war] has finished in [678] ms
+23-Jan-2024 15:48:34.741 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\WebApp.war]
+23-Jan-2024 15:48:34.770 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\WebApp.war] has finished in [28] ms
+23-Jan-2024 15:48:34.778 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\WebApp2.war]
+23-Jan-2024 15:48:35.061 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Jan-2024 15:48:35.064 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\WebApp2.war] has finished in [285] ms
+23-Jan-2024 15:48:35.064 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\docs]
+23-Jan-2024 15:48:35.104 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\docs] has finished in [40] ms
+23-Jan-2024 15:48:35.105 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\examples]
+23-Jan-2024 15:48:36.068 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\examples] has finished in [964] ms
+23-Jan-2024 15:48:36.069 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\host-manager]
+23-Jan-2024 15:48:36.115 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\host-manager] has finished in [46] ms
+23-Jan-2024 15:48:36.115 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\manager]
+23-Jan-2024 15:48:36.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\manager] has finished in [44] ms
+23-Jan-2024 15:48:36.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\ROOT]
+23-Jan-2024 15:48:36.185 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\ROOT] has finished in [25] ms
+23-Jan-2024 15:48:36.189 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Jan-2024 15:48:36.228 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2255] milliseconds
+23-Jan-2024 15:49:11.596 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp-form]
+23-Jan-2024 15:49:11.628 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war]
+23-Jan-2024 15:49:11.974 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Jan-2024 15:49:11.976 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war] has finished in [348] ms
+23-Jan-2024 15:51:56.776 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp-form]
+23-Jan-2024 15:51:56.806 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war]
+23-Jan-2024 15:51:57.110 INFO [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Jan-2024 15:51:57.112 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war] has finished in [306] ms
+23-Jan-2024 15:53:07.138 INFO [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp-form]
+23-Jan-2024 15:53:07.159 INFO [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war]
+23-Jan-2024 15:53:07.471 INFO [http-nio-8080-exec-18] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Jan-2024 15:53:07.473 INFO [http-nio-8080-exec-18] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war] has finished in [315] ms
+23-Jan-2024 15:53:44.822 INFO [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp-form]
+23-Jan-2024 15:53:44.839 INFO [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war]
+23-Jan-2024 15:53:45.149 INFO [http-nio-8080-exec-16] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Jan-2024 15:53:45.152 INFO [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war] has finished in [313] ms
+23-Jan-2024 16:07:17.938 INFO [http-nio-8080-exec-36] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp-form]
+23-Jan-2024 16:07:17.963 INFO [http-nio-8080-exec-36] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war]
+23-Jan-2024 16:07:18.270 INFO [http-nio-8080-exec-36] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Jan-2024 16:07:18.276 INFO [http-nio-8080-exec-36] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war] has finished in [313] ms
+23-Jan-2024 16:08:27.129 INFO [http-nio-8080-exec-40] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp-form]
+23-Jan-2024 16:08:27.153 INFO [http-nio-8080-exec-40] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war]
+23-Jan-2024 16:08:27.526 INFO [http-nio-8080-exec-40] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Jan-2024 16:08:27.529 INFO [http-nio-8080-exec-40] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war] has finished in [377] ms
+23-Jan-2024 16:53:45.834 INFO [http-nio-8080-exec-44] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp-form]
+23-Jan-2024 16:53:45.853 INFO [http-nio-8080-exec-44] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war]
+23-Jan-2024 16:53:46.117 INFO [http-nio-8080-exec-44] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Jan-2024 16:53:46.119 INFO [http-nio-8080-exec-44] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war] has finished in [266] ms
+23-Jan-2024 17:18:49.092 INFO [http-nio-8080-exec-55] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp-form]
+23-Jan-2024 17:18:49.111 INFO [http-nio-8080-exec-55] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war]
+23-Jan-2024 17:18:49.404 INFO [http-nio-8080-exec-55] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Jan-2024 17:18:49.407 INFO [http-nio-8080-exec-55] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war] has finished in [297] ms
+23-Jan-2024 17:21:02.218 INFO [http-nio-8080-exec-65] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp-form]
+23-Jan-2024 17:21:02.234 INFO [http-nio-8080-exec-65] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war]
+23-Jan-2024 17:21:02.501 INFO [http-nio-8080-exec-65] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Jan-2024 17:21:02.504 INFO [http-nio-8080-exec-65] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war] has finished in [269] ms

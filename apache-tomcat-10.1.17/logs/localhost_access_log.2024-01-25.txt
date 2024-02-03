@@ -1,0 +1,14 @@
+127.0.0.1 - admin [25/Jan/2024:18:11:20 -0600] "PUT /manager/text/deploy?path=%2Fwebapp-form&update=true HTTP/1.1" 200 69
+0:0:0:0:0:0:0:1 - - [25/Jan/2024:18:11:24 -0600] "GET /webapp-form HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [25/Jan/2024:18:11:24 -0600] "GET /webapp-form/ HTTP/1.1" 200 2931
+0:0:0:0:0:0:0:1 - - [25/Jan/2024:18:11:24 -0600] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [25/Jan/2024:18:12:03 -0600] "POST /webapp-form/registro HTTP/1.1" 200 3256
+0:0:0:0:0:0:0:1 - - [25/Jan/2024:18:13:23 -0600] "POST /webapp-form/registro HTTP/1.1" 200 3049
+0:0:0:0:0:0:0:1 - - [25/Jan/2024:18:13:42 -0600] "POST /webapp-form/registro HTTP/1.1" 200 3033
+0:0:0:0:0:0:0:1 - - [25/Jan/2024:18:13:52 -0600] "POST /webapp-form/registro HTTP/1.1" 200 487
+0:0:0:0:0:0:0:1 - - [25/Jan/2024:18:34:00 -0600] "GET /webapp-form/index.html HTTP/1.1" 200 2931
+127.0.0.1 - admin [25/Jan/2024:18:34:57 -0600] "PUT /manager/text/deploy?path=%2Fwebapp-form&update=true HTTP/1.1" 200 69
+127.0.0.1 - admin [25/Jan/2024:18:36:18 -0600] "PUT /manager/text/deploy?path=%2Fwebapp-form&update=true HTTP/1.1" 200 69
+0:0:0:0:0:0:0:1 - - [25/Jan/2024:18:36:24 -0600] "POST /webapp-form/registro HTTP/1.1" 200 3101
+0:0:0:0:0:0:0:1 - - [25/Jan/2024:18:36:33 -0600] "POST /webapp-form/registro HTTP/1.1" 200 3159
+0:0:0:0:0:0:0:1 - - [25/Jan/2024:18:36:42 -0600] "GET /webapp-form HTTP/1.1" 302 -

@@ -1,0 +1,8 @@
+25-Jan-2024 18:11:19.867 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+25-Jan-2024 18:11:19.867 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+25-Jan-2024 18:11:19.872 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp-form'
+25-Jan-2024 18:11:19.872 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war.tmp
+25-Jan-2024 18:34:57.529 INFO [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp-form'
+25-Jan-2024 18:34:57.529 INFO [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war.tmp
+25-Jan-2024 18:36:18.324 INFO [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp-form'
+25-Jan-2024 18:36:18.324 INFO [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\git\javaTraining\apache-tomcat-10.1.17\webapps\webapp-form.war.tmp
