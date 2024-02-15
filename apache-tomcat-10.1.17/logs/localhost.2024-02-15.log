@@ -1,0 +1,26 @@
+15-Feb-2024 16:18:35.844 INFO [main] org.apache.catalina.core.ApplicationContext.log inicializando la aplicacion
+15-Feb-2024 16:18:40.103 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+15-Feb-2024 16:18:40.103 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+15-Feb-2024 16:18:40.104 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@81ebdb0')
+15-Feb-2024 16:18:52.479 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Destruyendo la aplicacion
+15-Feb-2024 16:18:53.297 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log inicializando la aplicacion
+15-Feb-2024 16:19:16.233 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log inicializando el request
+15-Feb-2024 16:19:16.250 INFO [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Destruyendo el request
+15-Feb-2024 16:20:17.614 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Destruyendo la aplicacion
+15-Feb-2024 16:20:18.384 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log inicializando la aplicacion
+15-Feb-2024 16:20:34.291 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log inicializando el request
+15-Feb-2024 16:20:34.582 INFO [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Destruyendo el request
+15-Feb-2024 16:20:57.352 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log inicializando el request
+15-Feb-2024 16:20:57.365 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Destruyendo el request
+15-Feb-2024 16:21:00.590 INFO [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log inicializando el request
+15-Feb-2024 16:21:00.607 INFO [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Destruyendo el request
+15-Feb-2024 16:24:09.034 INFO [main] org.apache.catalina.core.ApplicationContext.log inicializando la aplicacion
+15-Feb-2024 16:24:12.343 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+15-Feb-2024 16:24:12.344 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+15-Feb-2024 16:24:12.346 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@75c27157')
+15-Feb-2024 16:24:13.285 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Destruyendo la aplicacion
+15-Feb-2024 16:24:14.072 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log inicializando la aplicacion
+15-Feb-2024 16:24:16.384 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log inicializando el request
+15-Feb-2024 16:24:16.622 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Destruyendo el request
+15-Feb-2024 16:26:14.019 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log inicializando el request
+15-Feb-2024 16:26:14.034 INFO [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Destruyendo el request

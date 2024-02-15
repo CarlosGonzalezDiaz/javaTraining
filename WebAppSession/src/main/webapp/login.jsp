@@ -7,7 +7,7 @@
 </head>
 <body>
 <h1>Iniciar Secion</h1>
-<form action="/WebAppCokies/login" method="post">
+<form action="/WebAppSession/login" method="post">
     <div>
         <label for="username">Username</label>
         <div>
@@ -22,6 +22,9 @@
     </div>
     <div>
         <input type="submit" value="enviar">
+    </div>
+    <div>
+        <a href="index.html">volver </a>
     </div>
 </form>
 </body>

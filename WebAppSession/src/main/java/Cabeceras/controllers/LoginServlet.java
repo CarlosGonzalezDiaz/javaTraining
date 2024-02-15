@@ -1,15 +1,14 @@
 package Cabeceras.controllers;
 
+import Cabeceras.services.LoginService;
+import Cabeceras.services.LoginServiceCookieImp;
+import Cabeceras.services.LoginServiceSessionImp;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.Cookie;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.*;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Arrays;
 import java.util.Optional;
 
 @WebServlet({"/login", "/login.html"})
@@ -19,11 +18,10 @@ public class LoginServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        Cookie[] cookies = req.getCookies()!= null ? req.getCookies() : new Cookie[0];
-        Optional<String> cookieOptional = Arrays.stream(cookies).filter(cookie -> "username".equals(cookie.getName()))
-                .map(Cookie::getValue)
-                .findAny();
-        if (cookieOptional.isPresent())
+        LoginService auth = new LoginServiceSessionImp();
+        Optional<String> usernameOptional = auth.getUsername(req);
+
+        if (usernameOptional.isPresent())
         {
             resp.setContentType("text/html;charset=UTF-8");
             try (PrintWriter out = resp.getWriter()) {
@@ -31,10 +29,14 @@ public class LoginServlet extends HttpServlet {
                 out.print("<html>");
                 out.print(" <head>");
                 out.print("     <meta charset\"UTF-8\">");
-                out.print("     <title>Hola " + cookieOptional.get() + "</title>");
+                out.print("     <title>Hola " + usernameOptional.get() + "</title>");
                 out.print(" </head>");
                 out.print(" <body>");
-                out.print("     <h1>"+cookieOptional.get() + " ya habias iniciado secion </h1>");
+                out.print("     <h1>"+usernameOptional.get() + " </h1>");
+                out.print("<br/>");
+                out.print("<a href=\"" + req.getContextPath() + "/" + "\"> volver&nbsp;&nbsp;&nbsp;</a>");
+                out.print("<a href=\"" + req.getContextPath() + "/logout" + "\"> logout</a>");
+                out.print(" </body>");
                 out.print(" </body>");
                 out.print("</html>");
             }
@@ -52,8 +54,13 @@ public class LoginServlet extends HttpServlet {
 
         if (USERNAME.equals(username) && PASSWORD.equals(password))
         {
+            /*
             Cookie usernameCookie = new Cookie("username",username);
             resp.addCookie(usernameCookie);
+             */
+
+            HttpSession session = req.getSession();
+            session.setAttribute("username","username");
 
             resp.setContentType("text/html;charset=UTF-8");
             try (PrintWriter out = resp.getWriter()) {
@@ -65,7 +72,8 @@ public class LoginServlet extends HttpServlet {
                 out.print(" </head>");
                 out.print(" <body>");
                 out.print("     <h1>Login Correcto Bienvenido: " + username + "</h1>");
-                out.print("<a href=\"" + req.getContextPath() + "/" + "\"> volver</a>");
+                out.print("<a href=\"" + req.getContextPath() + "/" + "\"> volver&nbsp;&nbsp;&nbsp;</a>");
+                out.print("<a href=\"" + req.getContextPath() + "/logout" + "\"> logout</a>");
                 out.print(" </body>");
                 out.print("</html>");
             }
