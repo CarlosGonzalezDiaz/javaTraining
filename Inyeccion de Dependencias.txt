@@ -1,0 +1,15 @@
+Que es la inyeccion de dependencias?
+es suministrar a un objeto una referencia de otro objetos que necesite, ambos tienen que estar registrados en el contenedor (@Component)
+
+Como Funciona?
+El contenedor se encarga de gestionar las instancias y dependencias de componentes mediante la inyeccion de objetos y se tiene que Anotar con @Autowired
+
+@Autowired
+Especifica quese inyectara un objeto de spring (bean o componente) en un atributo de otro objeto, es decir que se va a inyectar un bean de spring en el componente actual.
+donde se puede utilizar?
+-Atributos
+-Metodos setter
+-Constructor
+
+Bean
+Se utiliza para referirse a cualquier componente manejado por Spring, debe ser anotado con @Component o sus derivados, debe tener un constructor vacio por defecto
